@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DA4E5651-0DA2-49F7-A585-A40790BF310D}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{DA4E5651-0DA2-49F7-A585-A40790BF310D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="RXD" ID="{7B46C221-7302-4BF7-8553-FDE7BF3192F9}" ShortID="712208734">
+					<ChildrenList>
+						<SoundBank Name="RXD_LOGINSCREEN" ID="{B1BFD6C8-5971-4E7C-B33E-EBC7C78CEF87}">
+							<ObjectInclusionList>
+								<ObjectRef Name="RXD_LoginScreen" ID="{7BACD3FB-A6BA-4B54-B1A1-E483B4E43D6A}" WorkUnitID="{0FE8F3E7-B609-434D-AA44-E8AAA6CC2ACE}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

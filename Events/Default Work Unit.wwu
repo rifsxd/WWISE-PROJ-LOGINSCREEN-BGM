@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0FE8F3E7-B609-434D-AA44-E8AAA6CC2ACE}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{0FE8F3E7-B609-434D-AA44-E8AAA6CC2ACE}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="WOTPC_BGM" ID="{D2401788-96AC-4D0A-9B15-1EFB107BE61E}" PersistMode="Reference"/>
+				<Event Name="RXD_LoginScreen" ID="{7BACD3FB-A6BA-4B54-B1A1-E483B4E43D6A}">
+					<ChildrenList>
+						<Action Name="" ID="{16D682A0-0E89-4618-AA0B-717BB4C3E598}" ShortID="180671203">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM" ID="{CC0506C6-EA4D-4822-AE91-FAFEC5C684C5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,59 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\GitHub\\WWISE-PROJ-LOGINSCREEN-BGM\\",
+   "SourceFilesRoot": "E:\\GitHub\\WWISE-PROJ-LOGINSCREEN-BGM\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\GitHub\\WWISE-PROJ-LOGINSCREEN-BGM\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\GitHub\\WWISE-PROJ-LOGINSCREEN-BGM\\GeneratedSoundBanks\\Windows"
+  },
+  "DialogueEvents": [],
+  "StreamedFiles": [],
+  "MediaFilesNotInAnyBank": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Language": "SFX",
+    "Hash": "3325129555",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   },
+   {
+    "Id": "1436392487",
+    "Language": "SFX",
+    "Hash": "1700993158",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD\\RXD_LOGINSCREEN",
+    "ShortName": "RXD_LOGINSCREEN",
+    "Path": "RXD_LOGINSCREEN.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1436392487",
+      "Name": "RXD_LoginScreen",
+      "ObjectPath": "\\Events\\Default Work Unit\\RXD_LoginScreen",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "355096372",
+        "Language": "SFX",
+        "ShortName": "OST World of Tanks 1.0 – Intro Login 2018 (screen).wav",
+        "Path": "SFX/OST World of Tanks 1.0 – Intro Login 2018 (screen)_3F75BDB9.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "244438798",
+      "Name": "RTPC_ext_settings_volume_master_music",
+      "ObjectPath": "\\Game Parameters\\Settings\\RTPC_ext_settings_volume_master_music"
+     }
+    ]
+   }
+  ]
+ }
+}
